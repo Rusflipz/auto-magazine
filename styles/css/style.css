@@ -367,6 +367,10 @@ header {
 .header__link:last-child {
   margin-right: 0;
 }
+.header__link:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
 
 .header__links {
   display: -webkit-box;
@@ -417,6 +421,10 @@ header {
   top: 50%;
   right: 34px;
   margin-top: -10px;
+}
+.header__button:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 780px) {
@@ -617,6 +625,13 @@ header {
   }
 }
 .grid-top__button {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #E1FD2C;
   padding: 0;
   border: 1px solid #E1FD2C;
   background-color: transparent;
@@ -633,6 +648,12 @@ header {
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+.grid-top__button:hover {
+  background-color: #E1FD2C;
+  color: #191D2C;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .grid-top__button_top {
@@ -878,6 +899,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.gallery__button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
 
 @media screen and (max-width: 600px) {
   .gallery__button {
@@ -1085,6 +1110,9 @@ header {
   height: 12px;
   background-image: url(../../../images/dot.svg);
 }
+.press__dot:hover {
+  cursor: pointer;
+}
 
 .press__dot:first-child {
   margin-right: 14px;
@@ -1118,6 +1146,11 @@ header {
   margin-top: 263px;
   margin-left: auto;
   margin-right: 0;
+}
+.press__button:hover {
+  background-color: #E1FD2C;
+  color: #191D2C;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -1173,6 +1206,9 @@ header {
   background-color: #E1FD2C;
   height: 32px;
   width: 80px;
+}
+.footer__button:hover {
+  cursor: pointer;
 }
 
 .footer__caption {
@@ -1249,7 +1285,6 @@ header {
   font-size: 9px;
   line-height: 18px;
   letter-spacing: 1px;
-  text-transform: uppercase;
   height: 32px;
   padding-left: 10px;
   -webkit-box-sizing: border-box;
@@ -1265,12 +1300,12 @@ header {
   line-height: 16px;
   letter-spacing: 1px;
   color: #E1FD2C;
+  text-transform: uppercase;
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
   line-height: 18px;
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 .footer__input::-moz-placeholder {
@@ -1281,12 +1316,12 @@ header {
   line-height: 16px;
   letter-spacing: 1px;
   color: #E1FD2C;
+  text-transform: uppercase;
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
   line-height: 18px;
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 .footer__input:-ms-input-placeholder {
@@ -1297,12 +1332,12 @@ header {
   line-height: 16px;
   letter-spacing: 1px;
   color: #E1FD2C;
+  text-transform: uppercase;
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
   line-height: 18px;
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 .footer__input::-ms-input-placeholder {
@@ -1313,12 +1348,12 @@ header {
   line-height: 16px;
   letter-spacing: 1px;
   color: #E1FD2C;
+  text-transform: uppercase;
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
   line-height: 18px;
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 .footer__input::placeholder {
@@ -1329,12 +1364,12 @@ header {
   line-height: 16px;
   letter-spacing: 1px;
   color: #E1FD2C;
+  text-transform: uppercase;
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
   line-height: 18px;
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 .footer__logo-conteiner {
