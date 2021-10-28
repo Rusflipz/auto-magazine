@@ -442,7 +442,7 @@ header {
   border: none;
   padding: 0;
   display: none;
-  background-image: url(../../../images/line.svg);
+  background-image: url(../../images/line.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -470,7 +470,7 @@ header {
   }
 }
 .header__button_close {
-  background-image: url(../../../../images/closeIcon.svg);
+  background-image: url(../../images/closeIcon.svg);
   width: 26px;
   height: 26px;
   margin-top: -13px;
@@ -958,12 +958,12 @@ header {
 .gallery__button_left {
   margin-left: auto;
   margin-right: 30px;
-  background-image: url(../../../../images/arrow-left.svg);
+  background-image: url(../../images/arrow-left.svg);
 }
 
 .gallery__button_right {
   margin-right: 52px;
-  background-image: url(../../../../images/arrow-right.svg);
+  background-image: url(../../images/arrow-right.svg);
 }
 
 .gallery__conteiner {
@@ -1002,7 +1002,7 @@ header {
   }
 }
 .gallery__image {
-  background-image: url(../../../images/gallery1.png);
+  background-image: url(../../images/gallery1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1178,7 +1178,7 @@ header {
 .press__dot {
   width: 12px;
   height: 12px;
-  background-image: url(../../../images/dot.svg);
+  background-image: url(../../images/dot.svg);
 }
 .press__dot:hover {
   cursor: pointer;
@@ -1189,7 +1189,7 @@ header {
 }
 
 .press__dot_active {
-  background-image: url(../../../../images/dotActive.svg);
+  background-image: url(../../images/dotActive.svg);
 }
 
 .press__button {
