@@ -8,5 +8,13 @@
 @media screen and (max-width: 780px) {
     .header__links {
         display: none;
+        margin-left: 34px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__links {
+        display: none;
+        margin-left: 20px;
     }
 }
