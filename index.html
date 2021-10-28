@@ -14,9 +14,9 @@
 <div class="page">
     <header>
         <div class="header__links">
-            <a class="header__link">ФАКТЫ</a>
-            <a class="header__link">ГАЛЕРЕЯ</a>
-            <a class="header__link">ПРЕССА</a>
+            <a class="header__link" href="#facts">ФАКТЫ</a>
+            <a class="header__link" href="#gallery">ГАЛЕРЕЯ</a>
+            <a class="header__link" href="#press">ПРЕССА</a>
         </div>
         <img class="header__logo" src="./images/logo.svg">
         <button class="header__button"></button>
@@ -38,7 +38,7 @@
                     <button class="grid-top__button grid-top__button_lower">ПОДРОБНЕЕ</button>
                 </div>
             </section>
-            <section class="specifications">
+            <section class="specifications" id="facts">
                 <div class="specifications__text-conteiner">
                     <p class="specifications__text"><span class="specifications__text_bold">VW T1 Electro:</span> Отделение Volkswagen Commercial Vehicles представило концепт e-Bulli: классический вэн T1 1966 года с электрической силовой установкой. По словам производителя, проект получит
                         коммерческое продолжение, и через фирму-партнера eClassics наборы для конверсии микроавтобусов в электрокары и уже готовые машины будут продавать частным клиентам.</p>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </section>
-            <section class="gallery">
+            <section class="gallery" id="gallery">
                 <div class="gallery__conteiner">
                     <div class="gallery__image"></div>
                     <div class="gallery__functional">
@@ -68,15 +68,15 @@
                 </div>
                 <div class="gallery__empty"></div>
             </section>
-            <section class="press">
+            <section class="press" id="press">
                 <div class="press__left-conteiner">
                     <p class="press__title">Пресса</p>
                 </div>
                 <div class="press__right-conteiner">
                     <p class="press__text"><span class="press__text_bold">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
                     <div class="press__dots">
-                        <div class="press__dot press__dot_active"></div>
-                        <div class="press__dot"></div>
+                        <div class="press__dot press__dot_active press__dot_left"></div>
+                        <div class="press__dot press__dot_right"></div>
                     </div>
                     <button class="press__button">Читать</button>
                 </div>
@@ -97,6 +97,7 @@
             </section>
         </main>
 </div>
+<script src="./script.js"></script>
 </body>
 
 </html>
