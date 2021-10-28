@@ -6,98 +6,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/css/style.css">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <title></title>
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <title>Auto-Magazine</title>
 </head>
 
-
-<div class="page">
+<body class="page">
     <header>
         <div class="header__links">
             <a class="header__link" href="#facts">ФАКТЫ</a>
             <a class="header__link" href="#gallery">ГАЛЕРЕЯ</a>
             <a class="header__link" href="#press">ПРЕССА</a>
         </div>
-        <img class="header__logo" src="./images/logo.svg">
+        <img class="header__logo" src="./images/logo.svg" alt="Логотип">
         <button class="header__button"></button>
     </header>
+    <main>
+        <section class="grid-top">
+            <div class="grid-top__info">
+                <h1 class="grid-top__title">volkswagen T1</h1>
+                <h2 class="grid-top__subtitle">Новая версия популярного микроавтобуса</h2>
+                <p class="grid-top__text">С ЭЛЕКТРО ДВИГАТЕЛЕМ</p>
+                <button class="grid-top__button grid-top__button_top">ПОДРОБНЕЕ</button>
+            </div>
 
-    <body>
-        <main>
-            <section class="grid-top">
-                <div class="grid-top__info">
-                    <h1 class="grid-top__title">volkswagen T1</h1>
-                    <h2 class="grid-top__subtitle">Новая версия популярного микроавтобуса</h2>
-                    <p class="grid-top__text">С ЭЛЕКТРО ДВИГАТЕЛЕМ</p>
-                    <button class="grid-top__button grid-top__button_top">ПОДРОБНЕЕ</button>
-                </div>
+            <img class="grid-top__image" src="./images/Rectangle.png" alt="Фото volkswagen T1">
 
-                <img class="grid-top__image" src="./images/Rectangle.png">
+            <div class="grid-top__button-conteiner">
+                <button class="grid-top__button grid-top__button_lower">ПОДРОБНЕЕ</button>
+            </div>
+        </section>
+        <section class="specifications" id="facts">
+            <div class="specifications__text-conteiner">
+                <p class="specifications__text"><span class="specifications__text_bold">VW T1 Electro:</span> Отделение Volkswagen Commercial Vehicles представило концепт e-Bulli: классический вэн T1 1966 года с электрической силовой установкой. По словам производителя, проект получит
+                    коммерческое продолжение, и через фирму-партнера eClassics наборы для конверсии микроавтобусов в электрокары и уже готовые машины будут продавать частным клиентам.</p>
+            </div>
+            <div class="specifications__conteiner">
+                <div class="specifications__plus-conteiner">
+                    <p class="specifications__title">ПЛЮСЫ</p>
+                    <p class="specifications__caption">+ Экологичный</p>
+                    <p class="specifications__caption">+ Экономный</p>
+                    <p class="specifications__caption">+ Тихий</p>
+                </div>
+                <div class="specifications__minus-conteiner">
+                    <p class="specifications__title">МИНУСЫ</p>
+                    <p class="specifications__caption">- Дорогой</p>
+                    <p class="specifications__caption">- Подзарядка</p>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="gallery">
+            <div class="gallery__conteiner">
+                <div class="gallery__image"></div>
+                <div class="gallery__functional">
+                    <p class="gallery__text">Галерея</p>
+                    <button class="gallery__button gallery__button_left"></button>
+                    <button class="gallery__button gallery__button_right"></button>
+                </div>
+            </div>
+            <div class="gallery__empty"></div>
+        </section>
+        <section class="press" id="press">
+            <div class="press__left-conteiner">
+                <p class="press__title">Пресса</p>
+            </div>
+            <div class="press__right-conteiner">
+                <p class="press__text"><span class="press__text_bold">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
+                <div class="press__dots">
+                    <div class="press__dot press__dot_active press__dot_left"></div>
+                    <div class="press__dot press__dot_right"></div>
+                </div>
+                <button class="press__button">Читать</button>
+            </div>
+        </section>
+    </main>
+    <section class="footer">
+        <div class="footer__form-conteiner">
+            <p class="footer__title">Подписка</p>
+            <p class="footer__subtitle">На новые спецвыпуски машин.</p>
+            <form class="footer__form">
+                <input class="footer__input footer__input_name" type="text" placeholder="Имя" required><input class="footer__input footer__input_surname" type="text" placeholder="Фамилия" required><input class="footer__input footer__input_mail" type="email"
+                    placeholder="Почта" required><button class="footer__button">ПОДПИСКА</button>
+            </form>
+        </div>
+        <div class="footer__logo-conteiner">
+            <img class="footer__logo" src="./images/logo.svg" alt="Логотип">
+            <p class="footer__caption">© Auto-Magazine 2021</p>
+        </div>
+    </section>
 
-                <div class="grid-top__button-conteiner">
-                    <button class="grid-top__button grid-top__button_lower">ПОДРОБНЕЕ</button>
-                </div>
-            </section>
-            <section class="specifications" id="facts">
-                <div class="specifications__text-conteiner">
-                    <p class="specifications__text"><span class="specifications__text_bold">VW T1 Electro:</span> Отделение Volkswagen Commercial Vehicles представило концепт e-Bulli: классический вэн T1 1966 года с электрической силовой установкой. По словам производителя, проект получит
-                        коммерческое продолжение, и через фирму-партнера eClassics наборы для конверсии микроавтобусов в электрокары и уже готовые машины будут продавать частным клиентам.</p>
-                </div>
-                <div class="specifications__conteiner">
-                    <div class="specifications__plus-conteiner">
-                        <p class="specifications__title">ПЛЮСЫ</p>
-                        <p class="specifications__caption">+ Экологичный</p>
-                        <p class="specifications__caption">+ Экономный</p>
-                        <p class="specifications__caption">+ Тихий</p>
-                    </div>
-                    <div class="specifications__minus-conteiner">
-                        <p class="specifications__title">МИНУСЫ</p>
-                        <p class="specifications__caption">- Дорогой</p>
-                        <p class="specifications__caption">- Подзарядка</p>
-                    </div>
-                </div>
-            </section>
-            <section class="gallery" id="gallery">
-                <div class="gallery__conteiner">
-                    <div class="gallery__image"></div>
-                    <div class="gallery__functional">
-                        <p class="gallery__text">Галерея</p>
-                        <button class="gallery__button gallery__button_left"></button>
-                        <button class="gallery__button gallery__button_right"></button>
-                    </div>
-                </div>
-                <div class="gallery__empty"></div>
-            </section>
-            <section class="press" id="press">
-                <div class="press__left-conteiner">
-                    <p class="press__title">Пресса</p>
-                </div>
-                <div class="press__right-conteiner">
-                    <p class="press__text"><span class="press__text_bold">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
-                    <div class="press__dots">
-                        <div class="press__dot press__dot_active press__dot_left"></div>
-                        <div class="press__dot press__dot_right"></div>
-                    </div>
-                    <button class="press__button">Читать</button>
-                </div>
-            </section>
-            <section class="footer">
-                <div class="footer__form-conteiner">
-                    <p class="footer__title">Подписка</p>
-                    <p class="footer__subtitle">На новые спецвыпуски машин.</p>
-                    <form class="footer__form">
-                        <input class="footer__input footer__input_name" type="text" placeholder="Имя" required><input class="footer__input footer__input_surname" type="text" placeholder="Фамилия" required><input class="footer__input footer__input_mail"
-                            type="email" placeholder="Почта" required><button class="footer__button">ПОДПИСКА</button>
-                    </form>
-                </div>
-                <div class="footer__logo-conteiner">
-                    <img class="footer__logo" src="./images/logo.svg">
-                    <p class="footer__caption">© Auto-Magazine 2021</p>
-                </div>
-            </section>
-        </main>
-</div>
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
