@@ -1,0 +1,16 @@
+.footer__title {
+    margin: 0;
+    @include font($fontColor);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__title {
+        font-size: 26px;
+        line-height: 26px;
+    }
+}

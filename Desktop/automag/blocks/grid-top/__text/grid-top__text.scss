@@ -1,0 +1,25 @@
+.grid-top__text {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 62px;
+}
+
+@media screen and (max-width: 1100px) {
+    .grid-top__text {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-top__text {
+        margin-bottom: 60px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+}

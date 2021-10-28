@@ -1,0 +1,16 @@
+.footer__subtitle {
+    margin: 0;
+    @include font($fontColor);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 64px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__subtitle {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}

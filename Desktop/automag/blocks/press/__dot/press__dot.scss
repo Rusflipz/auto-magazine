@@ -1,0 +1,9 @@
+.press__dot {
+    width: 12px;
+    height: 12px;
+    background-image: url(../../../images/dot.svg);
+}
+
+.press__dot:first-child {
+    margin-right: 14px;
+}

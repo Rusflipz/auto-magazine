@@ -1,0 +1,16 @@
+.gallery__text {
+    margin: 0;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 46px;
+}
+
+@media screen and (max-width: 600px) {
+    .gallery__text {
+        font-size: 26px;
+        line-height: 26px;
+        margin-left: 20px;
+    }
+}

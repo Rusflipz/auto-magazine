@@ -1,0 +1,10 @@
+.specifications__minus-conteiner {
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .specifications__minus-conteiner {
+        padding: 20px;
+    }
+}

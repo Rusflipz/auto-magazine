@@ -1,0 +1,12 @@
+.specifications__text-conteiner {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 600px) {
+    .specifications__text-conteiner {
+        margin: 20px;
+    }
+}

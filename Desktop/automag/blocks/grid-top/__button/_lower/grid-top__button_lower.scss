@@ -1,0 +1,20 @@
+.grid-top__button_lower {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .grid-top__button_lower {
+        display: block;
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-top__button_lower {
+        margin-top: 60px;
+        width: 280px;
+        height: 64px;
+    }
+}

@@ -1,0 +1,24 @@
+.header__button {
+    width: 26px;
+    height: 20px;
+    position: absolute;
+    border: none;
+    padding: 0;
+    display: none;
+    background-image: url(../../../images/line.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    top: 50%;
+    right: 34px;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 780px) {
+    .header__button {
+        display: block;
+        width: 20px;
+        height: 16px;
+    }
+}

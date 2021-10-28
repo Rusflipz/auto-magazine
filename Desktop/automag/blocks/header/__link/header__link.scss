@@ -1,0 +1,8 @@
+.header__link {
+    @include font ($fontColor);
+    text-transform: uppercase;
+    margin-right: 20px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
