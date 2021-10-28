@@ -13,6 +13,10 @@
     top: 50%;
     right: 34px;
     margin-top: -10px;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
 }
 
 @media screen and (max-width: 780px) {

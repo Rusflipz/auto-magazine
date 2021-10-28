@@ -2,6 +2,9 @@
     width: 12px;
     height: 12px;
     background-image: url(../../../images/dot.svg);
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .press__dot:first-child {
