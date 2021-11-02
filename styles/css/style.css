@@ -582,6 +582,7 @@ template {
       -ms-grid-row-align: center;
       align-self: center;
   margin: auto;
+  margin-top: 30px;
   max-width: 560px;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-style: normal;
@@ -957,11 +958,21 @@ template {
   background-image: url(../../images/arrow-left.svg);
 }
 
+@media screen and (max-width: 600px) {
+  .gallery__button_left {
+    margin-right: 16px;
+  }
+}
 .gallery__button_right {
   margin-right: 52px;
   background-image: url(../../images/arrow-right.svg);
 }
 
+@media screen and (max-width: 600px) {
+  .gallery__button_right {
+    margin-right: 20px;
+  }
+}
 .gallery__conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1037,17 +1048,17 @@ template {
 }
 @media screen and (max-width: 450px) {
   .gallery__image {
-    height: 350px;
+    height: 320px;
   }
 }
 @media screen and (max-width: 400px) {
   .gallery__image {
-    height: 300px;
+    height: 250px;
   }
 }
 @media screen and (max-width: 350px) {
   .gallery__image {
-    height: 280px;
+    height: 204px;
   }
 }
 .gallery__text {
@@ -1316,7 +1327,7 @@ template {
 @media screen and (max-width: 600px) {
   .footer__form-conteiner {
     padding: 20px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
 }
 .footer__form {
