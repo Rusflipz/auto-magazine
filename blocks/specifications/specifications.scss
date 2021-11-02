@@ -1,7 +1,7 @@
     .specifications {
         @include font ($fontColor);
-        border-top: #E1FD2C solid 1px;
-        border-bottom: #E1FD2C solid 1px;
+        border-top: $fontColor solid 1px;
+        border-bottom: $fontColor solid 1px;
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;

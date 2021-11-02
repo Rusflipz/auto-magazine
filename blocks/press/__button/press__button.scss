@@ -5,7 +5,7 @@
     display: block;
     @include font($fontColor);
     background-color: transparent;
-    border: #E1FD2C solid 1px;
+    border: $fontColor solid 1px;
     border-radius: 100%;
     box-sizing: border-box;
     width: 110px;
