@@ -2,11 +2,11 @@
     width: 12px;
     height: 12px;
     background-image: url(../../images/dot.svg);
+    margin-right: 14px;
     &:hover {
         cursor: pointer;
     }
-}
-
-.press__dot:first-child {
-    margin-right: 14px;
+    &:last-child {
+        margin-right: 0;
+    }
 }

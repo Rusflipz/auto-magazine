@@ -12,7 +12,10 @@ const textContent = document.querySelector('.press__right-conteiner')
 const pressButton = document.querySelector('.press__button')
 const form = document.querySelector('.footer__form')
 const formButton = document.querySelector('.footer__button')
-const galerryFoto = ["url('./images/gallery1.png')", "url('./images/gallery2.png')", "url('./images/gallery3.png')"];
+const galerryFoto = [('./images/gallery1.png'), ('./images/gallery2.png'), ('./images/gallery3.png')];
+const text = [(`<p class="press__text"><span class="press__text-bold">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
+`), (`<p class="press__text"><span class="press__text-bold">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
+`)];
 
 
 
@@ -28,7 +31,7 @@ leftArrow.addEventListener('click', function() {
     } else {
         curNumGallery = curNumGallery - 1;
     }
-    galleryImage.style.backgroundImage = galerryFoto[curNumGallery]
+    galleryImage.src = galerryFoto[curNumGallery]
 })
 
 rightArrow.addEventListener('click', function() {
@@ -37,7 +40,7 @@ rightArrow.addEventListener('click', function() {
     } else {
         curNumGallery = curNumGallery + 1;
     }
-    galleryImage.style.backgroundImage = galerryFoto[curNumGallery]
+    galleryImage.src = galerryFoto[curNumGallery]
 })
 
 dotLeft.addEventListener('click', function() {
@@ -49,9 +52,7 @@ dotLeft.addEventListener('click', function() {
         dotLeft.classList.add('press__dot_active')
         dotRight.classList.remove('press__dot_active')
         pressText.remove()
-        textContent.insertAdjacentHTML('afterBegin', `
-                <p class="press__text"><span class="press__text_bold">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
-  `)
+        textContent.insertAdjacentHTML('afterBegin', text[curNumDot])
 
     }
 })
@@ -65,9 +66,7 @@ dotRight.addEventListener('click', function() {
         dotLeft.classList.remove('press__dot_active')
         dotRight.classList.add('press__dot_active')
         pressText.remove()
-        textContent.insertAdjacentHTML('afterBegin', `
-                <p class="press__text"><span class="press__text_bold">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
-  `)
+        textContent.insertAdjacentHTML('afterBegin', text[curNumDot])
     }
 })
 
@@ -79,6 +78,8 @@ pressButton.addEventListener('click', function() {
     }
 })
 
-form.addEventListener('submit', function() {
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
     formButton.textContent = "Готово!"
+    return false
 })

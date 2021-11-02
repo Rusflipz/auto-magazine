@@ -1,6 +1,7 @@
 .specifications__plus-conteiner {
-    border-left: #E1FD2C solid 1px;
-    border-right: #E1FD2C solid 1px;
+    margin: 0;
+    border-left: $fontColor solid 1px;
+    border-right: $fontColor solid 1px;
     padding-left: 50px;
     padding-top: 40px;
 }
@@ -14,7 +15,7 @@
 @media screen and (max-width: 600px) {
     .specifications__plus-conteiner {
         border-right: none;
-        border-bottom: #E1FD2C solid 1px;
+        border-bottom: $fontColor solid 1px;
         padding: 20px;
     }
 }

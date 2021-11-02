@@ -1,9 +1,9 @@
-.grid-top__button_lower {
+.grid-top__button_position_lower {
     display: none;
 }
 
 @media screen and (max-width: 1100px) {
-    .grid-top__button_lower {
+    .grid-top__button_position_lower {
         display: block;
         position: relative;
         margin: auto;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .grid-top__button_lower {
+    .grid-top__button_position_lower {
         margin-top: 60px;
         width: 280px;
         height: 64px;

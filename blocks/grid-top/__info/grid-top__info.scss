@@ -7,14 +7,12 @@
     align-self: center;
     margin: auto;
     max-width: 560px;
-    height: 540px;
     @include font ($fontColor);
 }
 
 @media screen and (max-width: 1100px) {
     .grid-top__info {
         width: 100%;
-        height: auto;
         max-width: none;
     }
 }

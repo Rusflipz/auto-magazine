@@ -1,5 +1,7 @@
 .footer__form-conteiner {
-    border-right: #E1FD2C solid 1px;
+    position: relative;
+    display: block;
+    border-right: $fontColor solid 1px;
     padding: 50px;
     padding-right: 0;
 }
