@@ -1,0 +1,20 @@
+.footer__form-conteiner {
+    position: relative;
+    display: block;
+    border-right: $fontColor solid 1px;
+    padding: 50px;
+    padding-right: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer__form-conteiner {
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__form-conteiner {
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+}

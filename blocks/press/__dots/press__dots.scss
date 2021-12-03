@@ -1,0 +1,14 @@
+.press__dots {
+    position: absolute;
+    display: block;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .press__dots {
+        bottom: 20px;
+    }
+}

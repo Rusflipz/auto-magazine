@@ -1,0 +1,25 @@
+.header__link {
+    @include font ($fontColor);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    text-decoration: none;
+    &:last-child {
+        margin-right: 0;
+    }
+    &:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__link {
+        font-size: 11px;
+        margin-right: 16px;
+    }
+}

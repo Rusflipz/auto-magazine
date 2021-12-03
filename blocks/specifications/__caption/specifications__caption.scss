@@ -1,0 +1,27 @@
+.specifications__caption {
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 1100px) {
+    .specifications__caption {
+        &:last-child {
+            margin-bottom: 270px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .specifications__caption {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 6px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

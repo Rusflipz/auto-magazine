@@ -1,0 +1,19 @@
+.footer__button {
+    @include font($fontColor);
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #191D2C;
+    border: none;
+    background-color: $fontColor;
+    height: 32px;
+    width: 80px;
+    &:hover {
+        cursor: pointer;
+    }
+}

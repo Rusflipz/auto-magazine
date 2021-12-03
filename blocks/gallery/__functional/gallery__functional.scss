@@ -1,0 +1,13 @@
+.gallery__functional {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .gallery__functional {
+        margin-bottom: 20px;
+    }
+}

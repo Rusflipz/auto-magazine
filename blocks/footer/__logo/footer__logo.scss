@@ -1,0 +1,16 @@
+.footer__logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 184px;
+    height: 38px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__logo {
+        margin: auto;
+        width: 280px;
+        height: 58px;
+    }
+}

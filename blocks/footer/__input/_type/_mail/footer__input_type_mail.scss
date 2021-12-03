@@ -1,0 +1,9 @@
+.footer__input_type_mail {
+    width: 260px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__input_type_mail {
+        width: 200px;
+    }
+}
