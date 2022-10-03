@@ -17,9 +17,8 @@ JS:
 SCSS:
 Адаптивная верстка
 
-**GitHub**
 
-Можно посмотреть проект тут:
+**Можно посмотреть проект тут:**
 * [Ссылка на GitHub Pages](https://rusflipz.github.io/auto-magazine/)
 
 
